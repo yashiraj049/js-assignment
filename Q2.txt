@@ -1,0 +1,66 @@
+Question 2.: What are data types in Javascript? Explain the different types of data types with examples.
+
+Solution: In JavaScript, data types refer to the different types of values that can be assigned to variables. JavaScript has both primitive data types and non-primitive data types (also known as reference types).
+
+Primitive Data Types
+1. Number: Represents numeric values, including integers and floating-point numbers.
+
+let age = 25; // integer
+let height = 5.5; // floating-point number
+
+
+2. String: Represents a sequence of characters, such as text or a sentence.
+
+let name = 'John Doe';
+let message = "Hello, world!";
+
+
+3. Boolean: Represents a logical value, either true or false.
+
+let isAdmin = true;
+let isGuest = false;
+
+
+4. Null: Represents the absence of any object value.
+
+let emptyValue = null;
+
+
+5. Undefined: Represents an uninitialized variable or a non-existent property.
+
+let uninitializedVariable;
+console.log(uninitializedVariable); // outputs: undefined
+
+
+Non -primitive Data Types
+1. Object: Represents a collection of key-value pairs, where each key is a string and each value can be any data type.
+
+let person = {
+  name: 'John Doe',
+  age: 25,
+  isAdmin: true
+};
+
+
+2. Array: Represents an ordered collection of values, which can be of any data type.
+
+let colors = ['red', 'green', 'blue'];
+let numbers = [1, 2, 3, 4, 5];
+
+
+Special Data Types
+1. Symbol: Represents a unique and immutable value, often used as property keys in objects.
+
+let uniqueKey = Symbol('uniqueKey');
+let obj = {[uniqueKey]: 'value'};
+
+
+2. BigInt: Represents a large integer value, larger than the maximum limit of the Number data type.
+
+let largeNumber = 12345678901234567890n;
+
+
+These are the main data types in JavaScript. Understanding these data types is essential for working with variables, operators, and control structures in JavaScript.
+
+
+
